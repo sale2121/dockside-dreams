@@ -1,0 +1,28 @@
+[
+  {
+    "colClass": "col-md-4 d-md-flex flex-column justify-content-center align-items-center p-0 gallery d-none",
+    "images": [
+      { "src": "assets/img/gallery-11.jpg", "alt": "1", "class": "d-block img-fluid col-11" },
+      { "src": "assets/img/gallery-12.jpg", "alt": "2", "class": "d-block img-fluid col-11 my-3" },
+      { "src": "assets/img/gallery-13.jpg", "alt": "3", "class": "d-block img-fluid col-11" }
+    ]
+  },
+  {
+    "colClass": "col-md-4 d-flex flex-column justify-content-center align-items-center gallery p-0",
+    "images": [
+      { "src": "assets/img/gallery-21.jpg", "alt": "4", "class": "d-block img-fluid col-12" },
+      { "src": "assets/img/gallery-22.jpg", "alt": "5", "class": "d-block img-fluid col-12 my-3" },
+      { "src": "assets/img/gallery-23.jpg", "alt": "6", "class": "d-block img-fluid col-12" },
+      { "src": "assets/img/gallery-24.jpg", "alt": "7", "class": "d-block img-fluid col-12 my-3" },
+      { "src": "assets/img/gallery-25.jpg", "alt": "8", "class": "d-block img-fluid col-12" }
+    ]
+  },
+  {
+    "colClass": "col-md-4 d-md-flex flex-column justify-content-center align-items-center gallery p-0 d-none",
+    "images": [
+      { "src": "assets/img/gallery-31.jfif", "alt": "9", "class": "d-block img-fluid col-11" },
+      { "src": "assets/img/gallery-32.jfif", "alt": "10", "class": "d-block img-fluid col-11 my-3" },
+      { "src": "assets/img/gallery-33.jfif", "alt": "11", "class": "d-block img-fluid col-11 mb-1" }
+    ]
+  }
+]

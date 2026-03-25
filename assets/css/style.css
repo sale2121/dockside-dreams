@@ -1,0 +1,367 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+:root{
+    --beige:#F1F6F9;
+    --grey:#a9acb1;
+    --black:#000000;
+    --white:#ffffff;
+    --darkGrey:#2d2828;
+    --pGrey:#0b090a;
+    --darkBlue:#1A2130;
+    --blue:#5A72A0;
+    --details:#83B4FF;
+}
+body{
+    background-color: var(--beige);
+    color:var(--pGrey);
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+h1,h2, h3,p{
+    margin: 0px;
+}
+/*text and bg*/
+.bg-grey{
+    background-color: var(--grey);
+}
+.bg-darkGrey{
+    background-color: var(--darkGrey);
+}
+.bg-darkGrey2{
+    background-color:rgba(58, 58, 58, 0.3)
+    
+}
+.bg-darkBlue{
+    background-color: var(--darkBlue);
+}
+.bg-beige{
+    background-color: var(--beige);
+}
+.text-darkBlue{
+    color: var(--darkBlue);
+}
+.text-beige{
+    color: var(--beige);
+}
+.text-blue{
+    color: var(--blue);
+}
+.text-darkGrey{
+    color: var(--darkGrey);
+}
+.text-grey{
+    color: var(--grey);
+}
+.headings-font{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.hovered-link {
+    color: #5A72A0;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.hovered-btn {
+    background-color: #5A72A0 !important;
+    color: #fff !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.collapse {
+    display: none;
+    flex-direction: column;
+}
+.collapse.show {
+    display: flex;
+}
+
+
+/*margins, paddings and width*/
+.my-w-100{
+    width: 100% !important; 
+}
+.my-h-50{
+    height: 50vh !important;
+}
+
+.carousel-item{
+    height: 100vh;
+    color: #000000;
+}
+
+
+
+.nav-link{
+    color: var(--beige);
+}
+
+.my-active{
+    color:var(--blue) !important;
+    border-bottom: 2px solid var(--blue);
+}
+.btn{
+    border-radius: 0px;
+    border: 1px solid var(--beige);
+}
+.btn-join {
+    background-color: #232c3d;
+    color: #ffffff;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-join:hover {
+    background-color: #8a8e95;
+    color: #000000;
+    transform: translateY(-2px);
+}
+
+.quote i::before{
+    font-size: 75px;
+    color: var(--darkBlue);
+    opacity: 0.9;
+}
+.quote-text::after{
+    content: "";
+    display: block;
+    width: 20%;
+    height: 1.5px;
+    margin: 0px auto;
+    background-color: var(--blue);
+}
+
+
+#season{
+    background-image: url("../img/season.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#season h2, #season h3, #season h4{
+    letter-spacing: 10px;
+}
+
+.bg-img{
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+    height: 90vh;
+}
+.cover-heading{
+    bottom: -2.2rem;
+    position: absolute;
+    left: 5%;
+    color: var(--beige);
+    font-size: 7rem;
+}
+.headings-border::after{
+    content: "";
+    display: block;
+    width: 20%;
+    margin-top: 5px;
+    height: 2.5px;
+    background-color: var(--blue);
+}
+#staff h2{
+    letter-spacing: 10px;
+}
+.staff-heading::before{
+    content: "";
+    display: block;
+    width: 20%;
+    height: 5px;
+    margin: 0px auto;
+    background-color: var(--grey);
+}
+
+.card{
+border-radius:12px;
+overflow:hidden;
+}
+
+.card img{
+height:200px;
+object-fit:cover;
+}
+
+.list-group-item{
+    background-color: transparent;
+    border-bottom: none;
+    color: var(--grey);
+    padding-left: 0px;
+    padding-top: 5px !important;
+}
+.membership h2{
+    letter-spacing: 3px;
+}
+
+#galleryContainer img {
+    border-radius: 20px;                    
+    transition: border-radius 0.4s ease, transform 0.3s ease;
+}
+
+#galleryContainer img:hover {
+    transform: scale(1.05);                     
+    border-radius: 25px;                        
+}
+
+.author-img{
+    height: 60vh;
+    width: 100%;
+    border-radius:20px;
+    transition:0.3s;
+}
+
+.author-img:hover{
+    border-radius:30px;
+    transform:scale(1.05);
+}
+
+.author-headings::before{
+    content: "";
+    display: block;
+    width: 20%;
+    height: 5px;
+    position: absolute;
+    right: 7%;
+    background-color: var(--blue);
+    margin-top: -15px;
+}
+.author-text p{
+    letter-spacing: 10px;
+}
+.author-text :last-child{
+    letter-spacing: 0px;
+}
+/*moj css*/
+.hover-img{
+    filter: grayscale(100%);
+    transition: filter 0.4s;
+}
+
+#backToTop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 22px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none; 
+    transition: background-color 0.3s;
+}
+
+#resetFilters{
+    border-radius: 10px;
+    background-color: #00212d;
+    color: #fff;
+    text-align: center;
+}
+
+#resetFilters:hover {
+    background-color: #bbbdc2;
+    color: #000000;
+    transform: translateY(-2px);
+}
+
+
+@media screen and (max-width: 993px){
+    .author-text p{
+        letter-spacing: 5px;
+    }
+    #home-nav{
+        position:  relative !important;
+        background-color: var(--grey);
+    }
+}
+@media screen and (max-width: 921px){
+    .bg-img{
+        height: 80vh !important;
+    }
+    .cover-heading{
+        bottom: -2rem;
+        font-size: 6.7rem;
+    }
+}
+@media screen and (max-width: 769px){
+    .author-headings::before{
+        position: relative;
+        margin: 0px auto;
+        right: 0;
+    }
+}
+@media screen and (max-width: 601px){
+    .bg-img{
+        height: 70vh !important;
+    }
+    .cover-heading{
+        bottom: -1.77rem;
+        font-size: 6rem;
+    }
+}
+@media screen and (max-width: 481px){
+    .bg-img{
+        height: 65vh !important;
+    }
+    .cover-heading{
+        bottom: -1.49rem;
+        font-size: 5rem;
+    }
+    .author-text p{
+        letter-spacing: 0px;
+    }
+}
+
+@media screen and (max-width: 376px){
+    .bg-img{
+        height: 50vh !important;
+    }
+    .cover-heading{
+        bottom: -1.2rem;
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 321px){
+    .bg-img{
+        height: 45vh !important;
+    }
+    .cover-heading{
+        bottom: -1.05rem;
+        font-size: 3.5rem;
+    }
+}
+
+#home-nav {
+    position: absolute;
+    top: 0;        
+    left: 0;     
+    width: 100%;   
+}
+
+
+.filters{
+    color: rgb(255, 255, 255) !important;
+    background-color: #537377 !important;
+    border-radius: 8px !important;
+    border: 2px solid transparent !important;
+}
+
+.cbA{
+    color: black ;
+    margin-left: 2%;
+}

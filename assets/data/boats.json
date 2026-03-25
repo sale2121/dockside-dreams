@@ -1,0 +1,222 @@
+[
+    {
+        "title": "Golden Odyssey",
+        "price": 140,
+        "period": "Per Day",
+        "image": "assets/img/boat2.jpg",
+        "category": "yacht",
+        "details": {
+           "specs": ["44 Feet", "12 Guests", "2 Cabins"],
+           "equip": ["Mini-bar", "Sun Deck", "Kitchen"]
+        }
+    },
+    {
+        "title": "Black Pearl",
+        "price": 320,
+        "period": "Per Day",
+        "image": "assets/img/boat1.jpg",
+        "category": "sailing",
+        "details": {
+           "specs": ["38 Feet", "8 Guests", "2 Cabins"],
+           "equip": ["Mini-bar", "Navigation System", "Sun Deck"]
+        }
+    },
+    {
+        "title": "Sea Senora",
+        "price": 450,
+        "period": "Per Day",
+        "image": "assets/img/boat5.jpg",
+        "category": "luxury",
+        "details": {
+           "specs": ["50 Feet", "14 Guests", "3 Cabins"],
+           "equip": ["Jacuzzi", "Sun Deck", "Kitchen", "Entertainment System"]
+        }
+    },
+    {
+        "title": "Fish Tales",
+        "price": 160,
+        "period": "Per Day",
+        "image": "assets/img/boat22.jpg",
+        "category": "fishing",
+        "details": {
+           "specs": ["40 Feet", "10 Guests", "2 Cabins"],
+           "equip": ["Fishing Gear", "Mini-bar", "Sun Deck"]
+        }
+    },
+    {
+        "title": "Ocean Breeze",
+        "price": 200,
+        "period": "Per Day",
+        "image": "assets/img/boat3.jpg",
+        "category": "yacht",
+        "details": {
+           "specs": ["52 Feet", "12 Guests", "3 Cabins"],
+           "equip": ["Jacuzzi", "BBQ Grill", "Sun Deck"]
+        }
+    },
+    {
+        "title": "Silver Wave",
+        "price": 180,
+        "period": "Per Day",
+        "image": "assets/img/boat6.jpg",
+        "category": "sailing",
+        "details": {
+           "specs": ["42 Feet", "8 Guests", "2 Cabins"],
+           "equip": ["Mini-bar", "Sail Kit", "Navigation System"]
+        }
+    },
+    {
+        "title": "Coral Queen",
+        "price": 400,
+        "period": "Per Day",
+        "image": "assets/img/boat18.jpg",
+        "category": "luxury",
+        "details": {
+           "specs": ["55 Feet", "16 Guests", "4 Cabins"],
+           "equip": ["Jacuzzi", "Sun Deck", "Kitchen", "Entertainment System"]
+        }
+    },
+    {
+        "title": "Wave Rider",
+        "price": 170,
+        "period": "Per Day",
+        "image": "assets/img/boat8.jpg",
+        "category": "fishing",
+        "details": {
+           "specs": ["45 Feet", "10 Guests", "2 Cabins"],
+           "equip": ["Fishing Gear", "Mini-bar", "Sun Deck"]
+        }
+    },
+    {
+        "title": "Sea Spirit",
+        "price": 220,
+        "period": "Per Day",
+        "image": "assets/img/boat11.jpg",
+        "category": "yacht",
+        "details": {
+           "specs": ["48 Feet", "12 Guests", "3 Cabins"],
+           "equip": ["Jacuzzi", "Sun Deck", "Kitchen"]
+        }
+    },
+    {
+        "title": "Storm Chaser",
+        "price": 190,
+        "period": "Per Day",
+        "image": "assets/img/boat9.jpg",
+        "category": "sailing",
+        "details": {
+           "specs": ["44 Feet", "8 Guests", "2 Cabins"],
+           "equip": ["Sail Kit", "Mini-bar", "Sun Deck"]
+        }
+    },
+    {
+        "title": "Lagoon Pearl",
+        "price": 420,
+        "period": "Per Day",
+        "image": "assets/img/boat10.jpg",
+        "category": "luxury",
+        "details": {
+           "specs": ["60 Feet", "18 Guests", "5 Cabins"],
+           "equip": ["Jacuzzi", "Sun Deck", "Kitchen", "Entertainment System"]
+        }
+    },
+    {
+        "title": "Fisher King",
+        "price": 175,
+        "period": "Per Day",
+        "image": "assets/img/boat12.jpg",
+        "category": "fishing",
+        "details": {
+           "specs": ["46 Feet", "10 Guests", "2 Cabins"],
+           "equip": ["Fishing Gear", "Mini-bar", "Sun Deck"]
+        }
+    },
+    {
+        "title": "Blue Horizon",
+        "price": 210,
+        "period": "Per Day",
+        "image": "assets/img/boat14.jpg",
+        "category": "yacht",
+        "details": {
+           "specs": ["50 Feet", "14 Guests", "3 Cabins"],
+           "equip": ["Jacuzzi", "Sun Deck", "Mini-bar"]
+        }
+    },
+    {
+        "title": "Sail Whisperer",
+        "price": 195,
+        "period": "Per Day",
+        "image": "assets/img/boat13.jpg",
+        "category": "sailing",
+        "details": {
+           "specs": ["42 Feet", "8 Guests", "2 Cabins"],
+           "equip": ["Sail Kit", "Navigation System", "Sun Deck"]
+        }
+    },
+    {
+        "title": "Luxury Wave",
+        "price": 460,
+        "period": "Per Day",
+        "image": "assets/img/boat15.jpg",
+        "category": "luxury",
+        "details": {
+           "specs": ["58 Feet", "16 Guests", "4 Cabins"],
+           "equip": ["Jacuzzi", "Sun Deck", "Kitchen", "Entertainment System"]
+        }
+    },
+    {
+        "title": "Fishing Master",
+        "price": 185,
+        "period": "Per Day",
+        "image": "assets/img/boat21.jpg",
+        "category": "fishing",
+        "details": {
+           "specs": ["44 Feet", "10 Guests", "2 Cabins"],
+           "equip": ["Fishing Gear", "Mini-bar", "Sun Deck"]
+        }
+    },
+    {
+        "title": "Coral Breeze",
+        "price": 230,
+        "period": "Per Day",
+        "image": "assets/img/boat19.jpg",
+        "category": "yacht",
+        "details": {
+           "specs": ["52 Feet", "12 Guests", "3 Cabins"],
+           "equip": ["Jacuzzi", "BBQ Grill", "Sun Deck"]
+        }
+    },
+    {
+        "title": "Wind Rider",
+        "price": 200,
+        "period": "Per Day",
+        "image": "assets/img/boat7.jpg",
+        "category": "sailing",
+        "details": {
+           "specs": ["40 Feet", "8 Guests", "2 Cabins"],
+           "equip": ["Sail Kit", "Mini-bar", "Sun Deck"]
+        }
+    },
+    {
+        "title": "Grand Lagoon",
+        "price": 480,
+        "period": "Per Day",
+        "image": "assets/img/boat17.jpg",
+        "category": "luxury",
+        "details": {
+           "specs": ["60 Feet", "18 Guests", "5 Cabins"],
+           "equip": ["Jacuzzi", "Sun Deck", "Kitchen", "Entertainment System"]
+        }
+    },
+    {
+        "title": "Deep Sea Hunter",
+        "price": 190,
+        "period": "Per Day",
+        "image": "assets/img/boat20.jpg",
+        "category": "fishing",
+        "details": {
+           "specs": ["45 Feet", "10 Guests", "2 Cabins"],
+           "equip": ["Fishing Gear", "Mini-bar", "Sun Deck"]
+        }
+    }
+]
