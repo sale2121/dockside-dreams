@@ -174,7 +174,7 @@ document.addEventListener("DOMContentLoaded",function(){
     {text: "Gallery", href:"gallery.html"},
     // {text: "Contact", href:"contact.html"},
     {text: "Author", href:"author.html"},
-    {text: "Documentation", href:"documentation.pdf"}
+    {text: "Documentation", href:"dokumentacija.docx"}
 
     ];
 
@@ -293,7 +293,7 @@ document.addEventListener("DOMContentLoaded",function(){
             {text:"Gallery", href:"gallery.html"},
             // {text:"Contact", href:"contact.html"},
             {text:"Author", href:"author.html"},
-            {text:"Documentation", href:"documentation.pdf"},
+            {text: "Documentation", href:"dokumentacija.docx"},
             {text:"Sitemap", href:"sitemap.xml"}
         ];
 
